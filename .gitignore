@@ -2,3 +2,4 @@ venv
 *sqlite3
 .idea
 anotacoes.txt
+*.pyc
