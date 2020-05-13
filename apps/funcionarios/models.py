@@ -12,8 +12,7 @@ class Funcionario(models.Model):
     empresa = models.ForeignKey(Empresa, on_delete=models.PROTECT, null=True, blank=True)
 
     def get_absolute_url(self):
-        return reverse('list_funcionarios'
-                       '')
+        return reverse('list_funcionarios')
 
     def __str__(self):
         return self.nome
